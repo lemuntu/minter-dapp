@@ -1,9 +1,9 @@
 const contractAddress = "0x5fA245a0c4070F44F49fD9D2Af3ef98A00A6b435"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
+const welcome_h1 = "Welcome to the Nyukia NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'Discover our NFT collection. Minting starting soon on our website Nyukia.com. Our HaPeeBees Collection is dedicated to the principles of Sustainability. It is a concept inspired by the inner workings of Bees. The Bee is a symbol of gentle and aggressive strength, a global icon for sustainable activities, biodiversity conservation, economical efficiency, and ecological integrity. Follow us to stay updated. You can beecome a HaPeeBee today and build a Sustainable World!!! ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
