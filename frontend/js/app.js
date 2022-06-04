@@ -20,26 +20,6 @@ window.addEventListener("DOMContentLoaded", async() => {
         });
     }
 
-    const splide = new Splide(".splide", {
-        type: "loop",
-        arrows: false,
-        perMove: 3,
-        pagination: false,
-        autoplay: true,
-        direction: 'ttb',
-        height: "calc(100vh - 90px)",
-        width: '30vw',
-        autoHeight: true,
-    });
-    splide.mount();
-
-    updateConnectStatus();
-    if (MetaMaskOnboarding.isMetaMaskInstalled()) {
-        window.ethereum.on("accountsChanged", (newAccounts) => {
-            accounts = newAccounts;
-            updateConnectStatus();
-        });
-    }
 });
 
 const updateConnectStatus = async() => {
@@ -360,7 +340,7 @@ async function mint() {
                 mintButton.innerText = button_presale_mint_whitelisted;
                 mintButton.disabled = false;
 
-                console.log("Failed to mint!");
+                console.log("Minted Successfully!");
             }
         } catch (e) {
             const mainText = document.getElementById("mainText");
