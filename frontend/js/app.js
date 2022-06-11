@@ -340,7 +340,7 @@ async function mint() {
                 mintButton.innerText = button_presale_mint_whitelisted;
                 mintButton.disabled = false;
 
-                console.log("Minted Successfully!");
+                console.log("Failed to mint!");
             }
         } catch (e) {
             const mainText = document.getElementById("mainText");
